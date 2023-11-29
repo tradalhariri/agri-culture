@@ -1,0 +1,24 @@
+
+
+
+
+<div style="margin-top: 100px; border: 18px solid #f4f4f4; border-radius: 25px; ">
+
+   {{!-- header  --}}
+    {{> header}}
+
+<div style="position: relative; height: auto; background-color: #f4f4f4; padding: 25px;text-align: center; display: block;">
+    
+        <h1 style="color: #626262; top:0; right: 0;  text-align:right; margin: 20px;"> عزيزي {{fullName}}</h1>
+        <h2 style="color: #626262; ">  نحن سعداء بإنضمامك لأسرة  </h2>
+        <h2 style="color: #626262; ">   </h2>
+        <h2 style="color: #626262; "> لتفعيل حسابك لدينا رجاء الدخول لهذا الرابط</h2>
+        <a href="{{link}}"><button style="background-color: #4CAF50;  border: none;color: white;text-align: center;text-decoration: none;display: inline-block;font-size: 30px;margin: 4px 2px;cursor: pointer; padding: 7px 50px; border-radius: 10px;">تفعيل الحساب</button></a>
+        <h2 style="color: #626262; ">في حالة عدم تفعيل الرابط يمكنك استخدام هذا الكود</h2>
+        <input style="text-align: center; color:#626262 ; width: 280px; font-size: 40px; background-color:#e0e0e0; border-style: hidden; border-radius: 10px; " type="text" value="{{token}}">
+        <h4 style="color: #626262; "> هذا الرابط صالح لمدة ٥ ايام فقط وسيتم ايقاف تفعيله</h4>
+    
+    </div>
+{{> footer}}
+{{!-- footer --}}
+</div>
